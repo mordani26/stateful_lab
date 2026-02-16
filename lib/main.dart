@@ -24,7 +24,7 @@ class CounterWidget extends StatefulWidget {
 }
 
 class _CounterWidgetState extends State<CounterWidget> {
-  static const int _maxLimit = 100; // ✅ changed from 10 to 100
+  static const int _maxLimit = 100; 
   int _counter = 0;
 
   final TextEditingController _controller = TextEditingController();
